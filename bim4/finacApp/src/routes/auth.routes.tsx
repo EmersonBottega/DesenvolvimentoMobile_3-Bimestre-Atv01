@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import SignIn from '../pages/SignIn/SignIn';
-import SignUp from '../pages/SignUp/SignUp';
+import SignUp from '../pages/SignUp';
 
 export type AuthStackParamList = {
     SignIn: undefined;
