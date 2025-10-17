@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import {View, Text, StyleSheet} from 'react-native';
 
-type SignInProps = Record<string, never>;
-type SignState = Record<string, never>;
+type SignUpProps = Record<string, never>;
+type SignUpState = Record<string, never>;
 
-export default class SignIn extends Component<SignInProps, SignState> {
+export default class SignUp extends Component<SignUpProps, SignUpState> {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Tela login</Text>
+        <Text>Tela de cadastro</Text>
       </View>
     );
   }
